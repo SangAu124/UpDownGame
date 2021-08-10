@@ -13,6 +13,7 @@
 		806888D1268DB8EB007A518F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 806888CF268DB8EB007A518F /* Main.storyboard */; };
 		806888D3268DB8F4007A518F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 806888D2268DB8F4007A518F /* Assets.xcassets */; };
 		806888D6268DB8F4007A518F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 806888D4268DB8F4007A518F /* LaunchScreen.storyboard */; };
+		808F15C026C2714800566580 /* CreditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808F15BF26C2714800566580 /* CreditViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		806888D2268DB8F4007A518F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		806888D5268DB8F4007A518F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		806888D7268DB8F4007A518F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		808F15BF26C2714800566580 /* CreditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				806888C9268DB8EB007A518F /* AppDelegate.swift */,
 				806888CB268DB8EB007A518F /* SceneDelegate.swift */,
 				806888CD268DB8EB007A518F /* ViewController.swift */,
+				808F15BF26C2714800566580 /* CreditViewController.swift */,
 				806888CF268DB8EB007A518F /* Main.storyboard */,
 				806888D2268DB8F4007A518F /* Assets.xcassets */,
 				806888D4268DB8F4007A518F /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 				806888CE268DB8EB007A518F /* ViewController.swift in Sources */,
 				806888CA268DB8EB007A518F /* AppDelegate.swift in Sources */,
 				806888CC268DB8EB007A518F /* SceneDelegate.swift in Sources */,
+				808F15C026C2714800566580 /* CreditViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,7 +291,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MA35V5PR3U;
 				INFOPLIST_FILE = UpDownGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,7 +311,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MA35V5PR3U;
 				INFOPLIST_FILE = UpDownGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
